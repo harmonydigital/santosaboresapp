@@ -10,7 +10,9 @@
     padding:0px;
     z-index: 999;
     background-color: #ff5e5e;
-    /* display: block !important; */
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
    
 }
 button#btnFullScreen svg {
