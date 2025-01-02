@@ -9,7 +9,7 @@
     color:white;
     padding:0px;
     z-index: 999;
-    background-color: black;
+    background-color: #ff5e5e;
     /* display: block !important; */
    
 }
@@ -46,7 +46,7 @@ button#btnFullScreen svg {
 .validation .content img {
     display: block;
     margin: 0 auto;
-    width: 80px;
+    width: 100px;
      transition: .3s;
 
 }

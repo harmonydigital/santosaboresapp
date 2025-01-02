@@ -1,6 +1,5 @@
  
-validateView=document.getElementById('validation')
-validateView.style.cssText='background-image:url("assets/images/harmony_yellow_drink.gif")'
+validateView=document.getElementById('validation') 
 if (localStorage.getItem("lastname")){
   validateView.style.display="none"
   initApp(localStorage.getItem("lastname"))
