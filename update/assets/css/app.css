@@ -2,7 +2,7 @@ body{
     background-color: #f7f7f7 !important;
 } 
 .menu{
-display: none !important;
+/* display: none !important; */
 }
 .editProd button:last-child {
     display: none;

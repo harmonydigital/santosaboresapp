@@ -6,6 +6,16 @@ var categoriesContainer=document.getElementById('categories')
 STATUSMESA=false
 
 
+generateID=()=>{   
+
+    
+            // var currencyID=Math.floor(Math.random() * 1000).toString() 
+            var ID=Math.floor(Math.random() * 1000).toString() 
+
+            return ID
+          } 
+
+          
 
 console.log(  data )
 
