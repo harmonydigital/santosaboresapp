@@ -1,8 +1,18 @@
 body{
     background-color: #f7f7f7 !important;
 } 
+button.tablinks .img2 {
+    display: block;
+}
 .menu{
 /* display: none !important; */
+}
+img {
+    max-width: 100%;
+ }
+ .tab button img {
+    width: 80px;
+    padding: 10px;
 }
 .editProd button:last-child {
     display: none;
