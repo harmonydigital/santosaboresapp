@@ -8,7 +8,9 @@ body{
     padding: 15px;
     justify-content: space-between;
 }
-
+.form-floating>label{
+background-color: transparent;
+}
 .xs-hidden{
     display: none;
 }

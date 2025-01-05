@@ -280,16 +280,17 @@ function login(){
                 <div id="login">    
                     <div class="form"> 
                        
-
-                        <form>
-                            <img class="mb-4" src="assets/images/logo.png" alt="" class="img-fluid">
-                            <h1 class="h3 mb-3 fw-normal">Gerencie seus Pedidos</h1>
+                            <img class="mb-4 img-fluid logo" src="assets/img/logo.png" alt="" >
+                            <h1 class="h3 mb-3 fw-normal text-center">Gerencie seus Pedidos</h1>
+                     
+                     
+                        <form> 
 
                             <div class="form-floating">
                       
 
                             <input type='text' class="form-control" autofocusonfocus="inputFocus()" id='nameuser' id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
+                            <label for="">Email </label>
                             </div>
                             <div class="form-floating">
                             
@@ -297,12 +298,7 @@ function login(){
                             <label for="floatingPassword">Senha</label>
                             </div>
 
-                            <div class="form-check text-start my-3">
-                            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Remember me
-                            </label>
-                            </div>
+                           
                             
                             <button class="btn btn-primary w-100 py-2" onclick='validationLogin(event, nameuser, pass)'>Entrar</button>
  
@@ -310,7 +306,7 @@ function login(){
                             <p class="mt-5 mb-3 text-body-secondary"> HarmonyStudio©</p>
                         </form>
                         <form>
-                        w
+                       
 
                              
                         </form>
